@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target robot[0m
+[ 50%] Built target comm
+[ 75%] [32mBuilding CXX object CMakeFiles/robot.dir/src/robot/robot.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/khoirlnwar/communication/devel/.private/communication/lib/communication/robot[0m
+[100%] Built target robot

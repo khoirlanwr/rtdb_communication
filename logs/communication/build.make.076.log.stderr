@@ -1,0 +1,26 @@
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:43:18:[m[K [01;31m[Kerror: [m[K‘[01m[KMAX_AGENT[m[K’ was not declared in this scope
+  char stateTable[MAX_AGENT]; // vision of each agent state
+[01;32m[K                  ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:47:21:[m[K [01;31m[Kerror: [m[K‘[01m[KMAX_AGENT[m[K’ was not declared in this scope
+ struct _agent agent[MAX_AGENT];
+[01;32m[K                     ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:[m[K In function ‘[01m[Kvoid signal_catch(int)[m[K’:
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:58:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer[m[K’ was not declared in this scope
+   timer++;
+[01;32m[K   ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:142:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+  for (i=0; i<MAX_AGENT; i++) 
+[01;32m[K       ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:142:14:[m[K [01;31m[Kerror: [m[K‘[01m[KMAX_AGENT[m[K’ was not declared in this scope
+  for (i=0; i<MAX_AGENT; i++) 
+[01;32m[K              ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:145:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kagent[m[K’ was not declared in this scope
+   agent[i].lastFrameCounter = 0;
+[01;32m[K   ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:146:20:[m[K [01;31m[Kerror: [m[K‘[01m[KNOT_RUNNING[m[K’ was not declared in this scope
+   agent[i].state = NOT_RUNNING;
+[01;32m[K                    ^[m[K
+make[2]: *** [CMakeFiles/comm.dir/src/comm/comm.cpp.o] Error 1
+make[1]: *** [CMakeFiles/comm.dir/all] Error 2
+make: *** [all] Error 2

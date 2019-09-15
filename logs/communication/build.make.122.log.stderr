@@ -1,0 +1,5 @@
+[01m[K/home/khoirlnwar/communication/src/communication/src/robot/robot.cpp:23:40:[m[K [01;31m[Kfatal error: [m[Kcommunication/struct_files.h: No such file or directory
+compilation terminated.
+make[2]: *** [CMakeFiles/robot.dir/src/robot/robot.cpp.o] Error 1
+make[1]: *** [CMakeFiles/robot.dir/all] Error 2
+make: *** [all] Error 2

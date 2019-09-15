@@ -1,0 +1,8 @@
+prefix=/home/khoirlnwar/communication/install
+
+Name: communication
+Description: Description of communication
+Version: 0.0.0
+Cflags: -I/home/khoirlnwar/communication/install/include
+Libs: -L/home/khoirlnwar/communication/install/lib -lcommunication
+Requires: roscpp std_msgs

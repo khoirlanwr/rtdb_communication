@@ -1,0 +1,9 @@
+In file included from [01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:4:0[m[K:
+[01m[K/home/khoirlnwar/communication/src/communication/include/../include/communication/multicast.h:[m[K In function ‘[01m[Kint openSocket(char*)[m[K’:
+[01m[K/home/khoirlnwar/communication/src/communication/include/../include/communication/multicast.h:121:54:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [-Wwrite-strings]
+  mreqn.imr_ifindex = if_NameToIndex("enp3s0", address);
+[01;32m[K                                                      ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:35:41:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [-Wwrite-strings]
+  if ((socketDesc = openSocket("Ethernet")) == -1)
+[01;32m[K                                         ^[m[K

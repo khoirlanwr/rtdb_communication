@@ -1,0 +1,6 @@
+devel_space: /home/khoirlnwar/communication/devel
+install: false
+install_space: /home/khoirlnwar/communication/install
+profile: default
+source_space: /home/khoirlnwar/communication/src
+workspace: /home/khoirlnwar/communication

@@ -1,0 +1,5 @@
+Linked: (/home/khoirlnwar/communication/devel/.private/communication/lib/communication/comm, /home/khoirlnwar/communication/devel/lib/communication/comm)
+Symlinking /home/khoirlnwar/communication/devel/lib/communication/robot
+Linked: (/home/khoirlnwar/communication/devel/.private/communication/lib/pkgconfig/communication.pc, /home/khoirlnwar/communication/devel/lib/pkgconfig/communication.pc)
+Linked: (/home/khoirlnwar/communication/devel/.private/communication/share/communication/cmake/communicationConfig-version.cmake, /home/khoirlnwar/communication/devel/share/communication/cmake/communicationConfig-version.cmake)
+Linked: (/home/khoirlnwar/communication/devel/.private/communication/share/communication/cmake/communicationConfig.cmake, /home/khoirlnwar/communication/devel/share/communication/cmake/communicationConfig.cmake)

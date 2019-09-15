@@ -1,0 +1,5 @@
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:2:21:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+compilation terminated.
+make[2]: *** [CMakeFiles/comm.dir/src/comm/comm.cpp.o] Error 1
+make[1]: *** [CMakeFiles/comm.dir/all] Error 2
+make: *** [all] Error 2

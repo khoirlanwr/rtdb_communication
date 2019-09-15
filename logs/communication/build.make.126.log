@@ -1,0 +1,23 @@
+[35m[1mScanning dependencies of target comm[0m
+[35m[1mScanning dependencies of target robot[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/robot.dir/src/robot/robot.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/comm.dir/src/comm/comm.cpp.o[0m
+[01m[K/home/khoirlnwar/communication/src/communication/src/robot/robot.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/khoirlnwar/communication/src/communication/src/robot/robot.cpp:64:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kif[m[K’
+  if (DB_put(VISION, my_vision) == -1)
+[01;32m[K  ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/robot/robot.cpp:74:26:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint*[m[K’, but argument 2 has type ‘[01m[Kfloat*[m[K’ [-Wformat=]
+   scanf("%d", &(my_pos.x));
+[01;32m[K                          ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/robot/robot.cpp:74:27:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint scanf(const char*, ...)[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+   scanf("%d", &(my_pos.x));
+[01;32m[K                           ^[m[K
+CMakeFiles/robot.dir/build.make:62: recipe for target 'CMakeFiles/robot.dir/src/robot/robot.cpp.o' failed
+make[2]: *** [CMakeFiles/robot.dir/src/robot/robot.cpp.o] Error 1
+make[1]: *** [CMakeFiles/robot.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/robot.dir/all' failed
+[ 75%] [32m[1mLinking CXX executable /home/khoirlnwar/communication/devel/.private/communication/lib/communication/comm[0m
+[ 75%] Built target comm
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

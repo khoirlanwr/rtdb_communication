@@ -1,0 +1,64 @@
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:[m[K In function ‘[01m[Kvoid update_stateTable()[m[K’:
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:124:7:[m[K [01;31m[Kerror: [m[K‘[01m[KremoveCounter[m[K’ was not declared in this scope
+       removeCounter = 0;
+[01;32m[K       ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:[m[K In function ‘[01m[Kvoid sync_ratdma(int)[m[K’:
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:166:12:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning 'void' [-fpermissive]
+   return (1);
+[01;32m[K            ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:173:93:[m[K [01;31m[Kerror: [m[K‘[01m[KRUNNING_AGENTS[m[K’ was not declared in this scope
+  expectedDiff = (int)((agent[agentNumber].dynamicID - agent[myNumber].dynamicID) * (TTUP_US/RUNNING_AGENTS));
+[01;32m[K                                                                                             ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:213:9:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning 'void' [-fpermissive]
+  return 0;
+[01;32m[K         ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:[m[K In function ‘[01m[Kvoid* receiveDataThread(void*)[m[K’:
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:269:17:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kid[m[K’ in ‘[01m[Krec[m[K’, which is of pointer type ‘[01m[KRTDBconf_var*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     memcpy(&rec.id, recvBuffer + indexBuffer, sizeof(rec.id));
+[01;32m[K                 ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:269:58:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kid[m[K’ in ‘[01m[Krec[m[K’, which is of pointer type ‘[01m[KRTDBconf_var*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     memcpy(&rec.id, recvBuffer + indexBuffer, sizeof(rec.id));
+[01;32m[K                                                          ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:270:31:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kid[m[K’ in ‘[01m[Krec[m[K’, which is of pointer type ‘[01m[KRTDBconf_var*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     indexBuffer += sizeof(rec.id);
+[01;32m[K                               ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:273:17:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[Krec[m[K’, which is of pointer type ‘[01m[KRTDBconf_var*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     memcpy(&rec.size, recvBuffer + indexBuffer, sizeof(rec.size));
+[01;32m[K                 ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:273:60:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[Krec[m[K’, which is of pointer type ‘[01m[KRTDBconf_var*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     memcpy(&rec.size, recvBuffer + indexBuffer, sizeof(rec.size));
+[01;32m[K                                                            ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:274:31:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[Krec[m[K’, which is of pointer type ‘[01m[KRTDBconf_var*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     indexBuffer += sizeof(rec.size);
+[01;32m[K                               ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:282:46:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kid[m[K’ in ‘[01m[Krec[m[K’, which is of pointer type ‘[01m[KRTDBconf_var*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     if ((size = DB_comm_put(agentNumber, rec.id, rec.size, recvBuffer + indexBuffer, life)) != (int)(rec.size))
+[01;32m[K                                              ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:282:54:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[Krec[m[K’, which is of pointer type ‘[01m[KRTDBconf_var*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     if ((size = DB_comm_put(agentNumber, rec.id, rec.size, recvBuffer + indexBuffer, life)) != (int)(rec.size))
+[01;32m[K                                                      ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:282:106:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[Krec[m[K’, which is of pointer type ‘[01m[KRTDBconf_var*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     if ((size = DB_comm_put(agentNumber, rec.id, rec.size, recvBuffer + indexBuffer, life)) != (int)(rec.size))
+[01;32m[K                                                                                                          ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:284:113:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kid[m[K’ in ‘[01m[Krec[m[K’, which is of pointer type ‘[01m[KRTDBconf_var*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+      PERR("Error in frame/rtdb: from = %d, id item = %d, received size = %d, local size = %d", agentNumber, rec.id, rec.size, size);
+[01;32m[K                                                                                                                 ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:23:67:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KPERR[m[K’
+  printf("ERROR: (%s / %s): " txt "\n", __FILE__, __FUNCTION__, ## par)
+[01;32m[K                                                                   ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:284:121:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[Krec[m[K’, which is of pointer type ‘[01m[KRTDBconf_var*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+      PERR("Error in frame/rtdb: from = %d, id item = %d, received size = %d, local size = %d", agentNumber, rec.id, rec.size, size);
+[01;32m[K                                                                                                                         ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:23:67:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KPERR[m[K’
+  printf("ERROR: (%s / %s): " txt "\n", __FILE__, __FUNCTION__, ## par)
+[01;32m[K                                                                   ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:288:24:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[Krec[m[K’, which is of pointer type ‘[01m[KRTDBconf_var*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     indexBuffer += rec.size;
+[01;32m[K                        ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:440:36:[m[K [01;31m[Kerror: [m[K‘[01m[KRUNNING_AGENTS[m[K’ was not declared in this scope
+   MAX_DELTA = (int)(2/3 * (TTUP_US/RUNNING_AGENTS));
+[01;32m[K                                    ^[m[K
+make[2]: *** [CMakeFiles/comm.dir/src/comm/comm.cpp.o] Error 1
+make[1]: *** [CMakeFiles/comm.dir/all] Error 2
+make: *** [all] Error 2

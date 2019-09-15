@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target robot[0m
+[ 50%] Built target comm
+[ 75%] [32mBuilding CXX object CMakeFiles/robot.dir/src/robot/robot.cpp.o[0m
+[01m[K/home/khoirlnwar/communication/src/communication/src/robot/robot.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/khoirlnwar/communication/src/communication/src/robot/robot.cpp:74:27:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint scanf(const char*, ...)[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+   scanf("%f", &(my_pos.x));
+[01;32m[K                           ^[m[K
+[100%] [32m[1mLinking CXX executable /home/khoirlnwar/communication/devel/.private/communication/lib/communication/robot[0m
+[100%] Built target robot

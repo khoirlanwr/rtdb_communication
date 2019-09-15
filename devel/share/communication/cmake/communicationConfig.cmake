@@ -1,0 +1,1 @@
+/home/khoirlnwar/communication/devel/.private/communication/share/communication/cmake/communicationConfig.cmake

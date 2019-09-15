@@ -1,0 +1,34 @@
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:23:2:[m[K [01;31m[Kerror: [m[K‘[01m[KRTDBconf_var[m[K’ was not declared in this scope
+  RTDBconf_var rec;
+[01;32m[K  ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:24:20:[m[K [01;31m[Kerror: [m[K‘[01m[KMAX_AGENTS[m[K’ was not declared in this scope
+  int n_shared_recs[MAX_AGENTS];
+[01;32m[K                    ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:30:38:[m[K [01;31m[Kerror: [m[K‘[01m[KopenSocket[m[K’ was not declared in this scope
+  if ((socketDesc = openSocket(argv[1])) == -1)
+[01;32m[K                                      ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:38:14:[m[K [01;31m[Kerror: [m[K‘[01m[KDB_init[m[K’ was not declared in this scope
+  if (DB_init() == -1)
+[01;32m[K              ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:41:25:[m[K [01;31m[Kerror: [m[K‘[01m[KcloseSocket[m[K’ was not declared in this scope
+   closeSocket(socketDesc);
+[01;32m[K                         ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:46:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kn_shared_recs[m[K’ was not declared in this scope
+  if((n_shared_recs = DB_comm_ini(rec)) < 1)
+[01;32m[K      ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:46:34:[m[K [01;31m[Kerror: [m[K‘[01m[Krec[m[K’ was not declared in this scope
+  if((n_shared_recs = DB_comm_ini(rec)) < 1)
+[01;32m[K                                  ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:46:37:[m[K [01;31m[Kerror: [m[K‘[01m[KDB_comm_ini[m[K’ was not declared in this scope
+  if((n_shared_recs = DB_comm_ini(rec)) < 1)
+[01;32m[K                                     ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:49:11:[m[K [01;31m[Kerror: [m[K‘[01m[KDB_free[m[K’ was not declared in this scope
+   DB_free();
+[01;32m[K           ^[m[K
+[01m[K/home/khoirlnwar/communication/src/communication/src/comm/comm.cpp:50:25:[m[K [01;31m[Kerror: [m[K‘[01m[KcloseSocket[m[K’ was not declared in this scope
+   closeSocket(socketDesc);
+[01;32m[K                         ^[m[K
+make[2]: *** [CMakeFiles/comm.dir/src/comm/comm.cpp.o] Error 1
+make[1]: *** [CMakeFiles/comm.dir/all] Error 2
+make: *** [all] Error 2
